@@ -1,9 +1,6 @@
-# название
-# время готовки
-# список ингредиентов
-# текстовое описание
-from pydantic import BaseModel
 from typing import Optional
+
+from pydantic import BaseModel
 
 
 class SRecipesList(BaseModel):

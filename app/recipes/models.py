@@ -4,7 +4,7 @@ from ..database import Base
 
 
 class Recipe(Base):
-    __tablename__ = 'recipes'
+    __tablename__ = "recipes"
 
     id: Mapped[int] = mapped_column(primary_key=True)
     title: Mapped[str]

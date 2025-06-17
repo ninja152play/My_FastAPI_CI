@@ -1,6 +1,6 @@
 from sqlalchemy import select
 
-from .models import *
+from .models import Recipe
 
 
 async def create_recipe_orm(session, recipe):
